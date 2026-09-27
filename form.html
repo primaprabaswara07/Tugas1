@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Registrasi</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+        }
+
+        fieldset {
+            width: 320px;
+            margin-bottom: 10px;
+        }
+
+        legend {
+            font-weight: bold;
+        }
+
+        label {
+            display: inline-block;
+            width: 100px;
+            margin-bottom: 5px;
+        }
+
+        input, textarea, select {
+            font-size: 11px;
+        }
+
+        textarea {
+            width: 170px;
+            height: 40px;
+            vertical-align: top;
+        }
+
+        button {
+            font-size: 11px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Form Registrasi</h2>
+
+    <fieldset>
+        <legend>Biodata</legend>
+
+        <label>Nama Mahasiswa</label>
+        <input type="text" placeholder="Nama Anda">
+        <br>
+
+        <label>No Induk Mahasiswa (NIM)</label>
+        <input type="text" placeholder="123456789">
+        <br>
+
+        <label>Alamat Mahasiswa</label>
+        <textarea placeholder="Alamat Anda"></textarea>
+        <br>
+
+        <label>Tanggal Lahir</label>
+        <select>
+            <option>01</option>
+            <option>02</option>
+            <option>03</option>
+        </select>
+
+        <select>
+            <option>Januari</option>
+            <option>Februari</option>
+            <option>Maret</option>
+        </select>
+
+        <select>
+            <option>1990</option>
+            <option>2000</option>
+            <option>2001</option>
+            <option>2002</option>
+        </select>
+        <br>
+
+        <label>Jenis Kelamin</label>
+        <input type="radio" name="jk"> Pria
+        <input type="radio" name="jk"> Wanita
+        <br>
+
+        <label>Upload Foto</label>
+        <input type="file">
+        <br>
+
+        <label>URL Website</label>
+        <input type="url" placeholder="URL Website Anda">
+        <br>
+
+        <label>Perguruan Tinggi</label>
+        <input type="text">
+    </fieldset>
+
+    <fieldset>
+        <legend>Info Akun</legend>
+
+        <label>Email</label>
+        <input type="email" placeholder="Email Anda">
+        <br>
+
+        <label>Username</label>
+        <input type="text" placeholder="Username Anda">
+        <br>
+
+        <label>Password</label>
+        <input type="password" placeholder="Password Anda">
+        <br>
+
+        <label>Ulangi Password</label>
+        <input type="password" placeholder="Password Anda">
+    </fieldset>
+
+    <fieldset>
+        <legend>Kemampuan Dasar</legend>
+
+        <input type="checkbox"> HTML
+        <input type="checkbox"> CSS
+        <input type="checkbox"> Javascript
+        <input type="checkbox"> PHP
+        <input type="checkbox"> MySQL
+        <input type="checkbox"> Laravel
+        <input type="checkbox"> React Native
+    </fieldset>
+
+    <button type="reset">Reset</button>
+    <button type="submit"><a href="semantic.html">simpan</a></button>
+    <button type="button">Button</button>
+
+</body>
+</html>
